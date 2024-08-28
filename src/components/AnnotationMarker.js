@@ -65,7 +65,7 @@ const AnnotationMarker = ({ isTemp, x, y, comment }) => (
     <StickyNote
         x={x}
         y={y}
-        className="emoji-reaction"
+        className="annotation-marker"
         isTemp={isTemp}
     >
         {!isTemp && <ExpandedContent>

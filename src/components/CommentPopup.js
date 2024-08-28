@@ -75,7 +75,7 @@ const CommentPopup = forwardRef(({ x, y, onAddComment }, ref) => {
           ref={ref}
           x={x} 
           y={y}
-          className="reaction-popup"
+          className="comment-popup"
         >
           <CommentInput 
             placeholder="Add a comment (optional)"
