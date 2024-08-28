@@ -13,9 +13,7 @@ const Reaction = () => {
   const popupRef = useRef(null);
 
   useEffect(() => {
-    const handleClick = (e) => {
-      if (e.target.closest('.emoji-reaction') || e.target.closest('.reaction-popup')) return;
-      
+    const handleClick = (e) => {      
       if (showPopup && !popupRef.current.contains(e.target)) {
         setShowPopup(false);
         setTempMarker(null);
